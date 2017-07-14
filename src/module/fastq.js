@@ -12,7 +12,7 @@ RMModule.factory('RMFastQ', [function() {
 
   var isFunction = angular.isFunction,
       catchError = function(_error) {
-        return this.then(null, _error);
+        return this.then(function() {}, _error);
       };
 
   function simpleQ(_val, _withError) {
