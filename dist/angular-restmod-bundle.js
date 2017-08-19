@@ -2606,7 +2606,7 @@ RMModule.factory('RMBuilderRelations', ['$injector', 'inflector', '$log', 'RMUti
               }
             })
             .attrEncoder(_attr + 'Id', function() {
-              return this[_attr] ? this[_attr].$pk : null;
+              return this[_attr] ? this[_attr].$pk : undefined;
             });
       }
 

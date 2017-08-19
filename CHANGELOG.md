@@ -1,4 +1,7 @@
 <a name="1.1.11"></a>
+### 1.1.12 (2017-08-19)
+* **Relations:** do not overwrite foreign keys if nested model is not present when encoding
+
 ### 1.1.11 (2015-10-26)
 
 
